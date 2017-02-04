@@ -44,6 +44,28 @@
 		1A216D301E45FE4E000191AD /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D121E45FE4E000191AD /* X.json */; };
 		1A216D311E45FE4E000191AD /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D131E45FE4E000191AD /* Y.json */; };
 		1A216D321E45FE4E000191AD /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D141E45FE4E000191AD /* Z.json */; };
+		1A216D361E460627000191AD /* AnimationExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D341E460627000191AD /* AnimationExplorerViewController.swift */; };
+		1A216D371E460627000191AD /* AnimationExplorerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D351E460627000191AD /* AnimationExplorerViewController.xib */; };
+		1A216D3C1E460672000191AD /* AnimationTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D3A1E460672000191AD /* AnimationTransitionViewController.swift */; };
+		1A216D3D1E460672000191AD /* AnimationTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D3B1E460672000191AD /* AnimationTransitionViewController.xib */; };
+		1A216D401E460686000191AD /* AnimationTypingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D3E1E460686000191AD /* AnimationTypingViewController.swift */; };
+		1A216D411E460686000191AD /* AnimationTypingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D3F1E460686000191AD /* AnimationTypingViewController.xib */; };
+		1A216D441E460966000191AD /* AnimationPresentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D421E460966000191AD /* AnimationPresentedViewController.swift */; };
+		1A216D451E460966000191AD /* AnimationPresentedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D431E460966000191AD /* AnimationPresentedViewController.xib */; };
+		1A216D471E460A55000191AD /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D461E460A55000191AD /* Transition.swift */; };
+		1A216D531E460D78000191AD /* 9squares-AlBoardman.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D481E460D78000191AD /* 9squares-AlBoardman.json */; };
+		1A216D541E460D78000191AD /* HamburgerArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D491E460D78000191AD /* HamburgerArrow.json */; };
+		1A216D551E460D78000191AD /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D4A1E460D78000191AD /* IconTransitions.json */; };
+		1A216D561E460D78000191AD /* LottieLogo1_masked.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D4B1E460D78000191AD /* LottieLogo1_masked.json */; };
+		1A216D571E460D78000191AD /* LottieLogo2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D4C1E460D78000191AD /* LottieLogo2.json */; };
+		1A216D581E460D78000191AD /* MotionCorpse-Jrcanest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D4D1E460D78000191AD /* MotionCorpse-Jrcanest.json */; };
+		1A216D591E460D78000191AD /* PinJump.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D4E1E460D78000191AD /* PinJump.json */; };
+		1A216D5A1E460D78000191AD /* TwitterHeart.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D4F1E460D78000191AD /* TwitterHeart.json */; };
+		1A216D5B1E460D78000191AD /* vcTransition1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D501E460D78000191AD /* vcTransition1.json */; };
+		1A216D5C1E460D78000191AD /* vcTransition2.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D511E460D78000191AD /* vcTransition2.json */; };
+		1A216D5D1E460D78000191AD /* Watermelon.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D521E460D78000191AD /* Watermelon.json */; };
+		1A216D651E461681000191AD /* WatermelonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D631E461681000191AD /* WatermelonViewController.swift */; };
+		1A216D661E461681000191AD /* WatermelonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D641E461681000191AD /* WatermelonViewController.xib */; };
 		37AF9567F92EE188B2F4F7A3 /* Pods_Lottie_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE30D1864CB09923E697308 /* Pods_Lottie_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +109,28 @@
 		1A216D121E45FE4E000191AD /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
 		1A216D131E45FE4E000191AD /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
 		1A216D141E45FE4E000191AD /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		1A216D341E460627000191AD /* AnimationExplorerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationExplorerViewController.swift; sourceTree = "<group>"; };
+		1A216D351E460627000191AD /* AnimationExplorerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationExplorerViewController.xib; sourceTree = "<group>"; };
+		1A216D3A1E460672000191AD /* AnimationTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTransitionViewController.swift; sourceTree = "<group>"; };
+		1A216D3B1E460672000191AD /* AnimationTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationTransitionViewController.xib; sourceTree = "<group>"; };
+		1A216D3E1E460686000191AD /* AnimationTypingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationTypingViewController.swift; sourceTree = "<group>"; };
+		1A216D3F1E460686000191AD /* AnimationTypingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationTypingViewController.xib; sourceTree = "<group>"; };
+		1A216D421E460966000191AD /* AnimationPresentedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationPresentedViewController.swift; sourceTree = "<group>"; };
+		1A216D431E460966000191AD /* AnimationPresentedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationPresentedViewController.xib; sourceTree = "<group>"; };
+		1A216D461E460A55000191AD /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		1A216D481E460D78000191AD /* 9squares-AlBoardman.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "9squares-AlBoardman.json"; sourceTree = "<group>"; };
+		1A216D491E460D78000191AD /* HamburgerArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = HamburgerArrow.json; sourceTree = "<group>"; };
+		1A216D4A1E460D78000191AD /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
+		1A216D4B1E460D78000191AD /* LottieLogo1_masked.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
+		1A216D4C1E460D78000191AD /* LottieLogo2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
+		1A216D4D1E460D78000191AD /* MotionCorpse-Jrcanest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MotionCorpse-Jrcanest.json"; sourceTree = "<group>"; };
+		1A216D4E1E460D78000191AD /* PinJump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PinJump.json; sourceTree = "<group>"; };
+		1A216D4F1E460D78000191AD /* TwitterHeart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TwitterHeart.json; sourceTree = "<group>"; };
+		1A216D501E460D78000191AD /* vcTransition1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition1.json; sourceTree = "<group>"; };
+		1A216D511E460D78000191AD /* vcTransition2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vcTransition2.json; sourceTree = "<group>"; };
+		1A216D521E460D78000191AD /* Watermelon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Watermelon.json; sourceTree = "<group>"; };
+		1A216D631E461681000191AD /* WatermelonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermelonViewController.swift; sourceTree = "<group>"; };
+		1A216D641E461681000191AD /* WatermelonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WatermelonViewController.xib; sourceTree = "<group>"; };
 		7FE30D1864CB09923E697308 /* Pods_Lottie_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBA8290851126DC64316030 /* Pods-Lottie-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF4C5C99BD44E9457D4218EF /* Pods-Lottie-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +193,10 @@
 			children = (
 				1A216CEF1E45EEA9000191AD /* HomeViewController.swift */,
 				1A216CF01E45EEA9000191AD /* HomeViewController.xib */,
+				1A216D331E460611000191AD /* Animation Explorer */,
+				1A216D381E460631000191AD /* Transition Demo */,
+				1A216D391E460642000191AD /* Typing Animation Demo */,
+				1A216D5E1E4614EF000191AD /* Watermelon */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -156,6 +204,17 @@
 		1A216CF31E45EEC3000191AD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1A216D481E460D78000191AD /* 9squares-AlBoardman.json */,
+				1A216D491E460D78000191AD /* HamburgerArrow.json */,
+				1A216D4A1E460D78000191AD /* IconTransitions.json */,
+				1A216D4B1E460D78000191AD /* LottieLogo1_masked.json */,
+				1A216D4C1E460D78000191AD /* LottieLogo2.json */,
+				1A216D4D1E460D78000191AD /* MotionCorpse-Jrcanest.json */,
+				1A216D4E1E460D78000191AD /* PinJump.json */,
+				1A216D4F1E460D78000191AD /* TwitterHeart.json */,
+				1A216D501E460D78000191AD /* vcTransition1.json */,
+				1A216D511E460D78000191AD /* vcTransition2.json */,
+				1A216D521E460D78000191AD /* Watermelon.json */,
 				1A216CF61E45FE4E000191AD /* TypeFace */,
 				1A216CF41E45F6C0000191AD /* LottieLogo1.json */,
 			);
@@ -197,6 +256,45 @@
 				1A216D141E45FE4E000191AD /* Z.json */,
 			);
 			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		1A216D331E460611000191AD /* Animation Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				1A216D341E460627000191AD /* AnimationExplorerViewController.swift */,
+				1A216D351E460627000191AD /* AnimationExplorerViewController.xib */,
+			);
+			name = "Animation Explorer";
+			sourceTree = "<group>";
+		};
+		1A216D381E460631000191AD /* Transition Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1A216D3A1E460672000191AD /* AnimationTransitionViewController.swift */,
+				1A216D3B1E460672000191AD /* AnimationTransitionViewController.xib */,
+				1A216D421E460966000191AD /* AnimationPresentedViewController.swift */,
+				1A216D431E460966000191AD /* AnimationPresentedViewController.xib */,
+				1A216D461E460A55000191AD /* Transition.swift */,
+			);
+			name = "Transition Demo";
+			sourceTree = "<group>";
+		};
+		1A216D391E460642000191AD /* Typing Animation Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1A216D3E1E460686000191AD /* AnimationTypingViewController.swift */,
+				1A216D3F1E460686000191AD /* AnimationTypingViewController.xib */,
+			);
+			name = "Typing Animation Demo";
+			sourceTree = "<group>";
+		};
+		1A216D5E1E4614EF000191AD /* Watermelon */ = {
+			isa = PBXGroup;
+			children = (
+				1A216D631E461681000191AD /* WatermelonViewController.swift */,
+				1A216D641E461681000191AD /* WatermelonViewController.xib */,
+			);
+			name = Watermelon;
 			sourceTree = "<group>";
 		};
 		4D1E6271D5B7AEB87F57D74E /* Pods */ = {
@@ -284,34 +382,50 @@
 				1A216D171E45FE4E000191AD /* B.json in Resources */,
 				1A216CE61E45EE5B000191AD /* LaunchScreen.storyboard in Resources */,
 				1A216CE31E45EE5B000191AD /* Assets.xcassets in Resources */,
+				1A216D3D1E460672000191AD /* AnimationTransitionViewController.xib in Resources */,
 				1A216D2F1E45FE4E000191AD /* W.json in Resources */,
 				1A216D231E45FE4E000191AD /* K.json in Resources */,
 				1A216D1A1E45FE4E000191AD /* Colon.json in Resources */,
 				1A216D261E45FE4E000191AD /* N.json in Resources */,
 				1A216D1F1E45FE4E000191AD /* G.json in Resources */,
+				1A216D5A1E460D78000191AD /* TwitterHeart.json in Resources */,
+				1A216D531E460D78000191AD /* 9squares-AlBoardman.json in Resources */,
+				1A216D571E460D78000191AD /* LottieLogo2.json in Resources */,
 				1A216CE11E45EE5B000191AD /* Main.storyboard in Resources */,
+				1A216D5C1E460D78000191AD /* vcTransition2.json in Resources */,
+				1A216D5B1E460D78000191AD /* vcTransition1.json in Resources */,
 				1A216D251E45FE4E000191AD /* M.json in Resources */,
+				1A216D661E461681000191AD /* WatermelonViewController.xib in Resources */,
+				1A216D371E460627000191AD /* AnimationExplorerViewController.xib in Resources */,
 				1A216D2C1E45FE4E000191AD /* T.json in Resources */,
 				1A216CF51E45F6C0000191AD /* LottieLogo1.json in Resources */,
 				1A216D191E45FE4E000191AD /* C.json in Resources */,
 				1A216D2B1E45FE4E000191AD /* S.json in Resources */,
 				1A216D291E45FE4E000191AD /* Q.json in Resources */,
 				1A216D2E1E45FE4E000191AD /* V.json in Resources */,
+				1A216D411E460686000191AD /* AnimationTypingViewController.xib in Resources */,
 				1A216D271E45FE4E000191AD /* O.json in Resources */,
+				1A216D451E460966000191AD /* AnimationPresentedViewController.xib in Resources */,
 				1A216D1B1E45FE4E000191AD /* Comma.json in Resources */,
 				1A216D321E45FE4E000191AD /* Z.json in Resources */,
 				1A216D281E45FE4E000191AD /* P.json in Resources */,
 				1A216D201E45FE4E000191AD /* H.json in Resources */,
 				1A216D241E45FE4E000191AD /* L.json in Resources */,
 				1A216D181E45FE4E000191AD /* BlinkingCursor.json in Resources */,
+				1A216D541E460D78000191AD /* HamburgerArrow.json in Resources */,
+				1A216D5D1E460D78000191AD /* Watermelon.json in Resources */,
 				1A216D1E1E45FE4E000191AD /* F.json in Resources */,
 				1A216D211E45FE4E000191AD /* I.json in Resources */,
+				1A216D561E460D78000191AD /* LottieLogo1_masked.json in Resources */,
 				1A216D2A1E45FE4E000191AD /* R.json in Resources */,
+				1A216D581E460D78000191AD /* MotionCorpse-Jrcanest.json in Resources */,
 				1A216D311E45FE4E000191AD /* Y.json in Resources */,
 				1A216D2D1E45FE4E000191AD /* U.json in Resources */,
+				1A216D591E460D78000191AD /* PinJump.json in Resources */,
 				1A216CF21E45EEA9000191AD /* HomeViewController.xib in Resources */,
 				1A216D161E45FE4E000191AD /* Apostrophe.json in Resources */,
 				1A216D151E45FE4E000191AD /* A.json in Resources */,
+				1A216D551E460D78000191AD /* IconTransitions.json in Resources */,
 				1A216D301E45FE4E000191AD /* X.json in Resources */,
 				1A216D1D1E45FE4E000191AD /* E.json in Resources */,
 			);
@@ -372,7 +486,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A216D471E460A55000191AD /* Transition.swift in Sources */,
+				1A216D401E460686000191AD /* AnimationTypingViewController.swift in Sources */,
+				1A216D3C1E460672000191AD /* AnimationTransitionViewController.swift in Sources */,
+				1A216D361E460627000191AD /* AnimationExplorerViewController.swift in Sources */,
 				1A216CDC1E45EE5B000191AD /* AppDelegate.swift in Sources */,
+				1A216D441E460966000191AD /* AnimationPresentedViewController.swift in Sources */,
+				1A216D651E461681000191AD /* WatermelonViewController.swift in Sources */,
 				1A216CF11E45EEA9000191AD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

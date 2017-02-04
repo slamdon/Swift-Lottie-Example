@@ -10,8 +10,9 @@ import UIKit
 import Lottie
 
 class HomeViewController: UIViewController {
-
-    var lottieLogo: LAAnimationView!
+    
+    fileprivate let items = ["Animation Exploreer", "Animated Keyboard", "Animated Transition Demo", "Watermelon Animation"]
+    fileprivate var lottieLogo: LAAnimationView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,6 @@ class HomeViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(playLottieAnimation))
         lottieLogo.addGestureRecognizer(tapGesture)
         
-
     }
     
     
@@ -40,7 +40,6 @@ class HomeViewController: UIViewController {
         view.addSubview(lottieLogo)
         
     }
-    
     
     func playLottieAnimation() {
         lottieLogo.animationProgress = 0
@@ -59,7 +58,7 @@ extension HomeViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return items.count
     }
     
     
@@ -68,6 +67,7 @@ extension HomeViewController: UITableViewDataSource {
         if cell == nil {
             cell = UITableViewCell(style: .value1, reuseIdentifier: "aCell")
         }
+        cell?.textLabel?.text = items[indexPath.row]
         return cell!
     }
     
@@ -76,6 +76,25 @@ extension HomeViewController: UITableViewDataSource {
 // MARK: UITableViewDelegate
 extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let row = indexPath.row
+        
+        switch row {
+        case 0:
+            let VC = AnimationExplorerViewController(nibName: "AnimationExplorerViewController", bundle: nil)
+            present(VC, animated: true, completion: nil)
+        case 1:
+            let VC = AnimationTypingViewController(nibName: "AnimationTypingViewController", bundle: nil)
+            present(VC, animated: true, completion: nil)
+        case 2:
+            let VC = AnimationTransitionViewController(nibName: "AnimationTransitionViewController", bundle: nil)
+            present(VC, animated: true, completion: nil)
+        case 3:
+            let VC = WatermelonViewController(nibName: "WatermelonViewController", bundle: nil)
+            present(VC, animated: true, completion: nil)
+        default:
+            print("do nothing")
+        }
+        
         
     }
     
