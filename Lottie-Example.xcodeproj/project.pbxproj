@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A216CDC1E45EE5B000191AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216CDB1E45EE5B000191AD /* AppDelegate.swift */; };
+		1A216CE11E45EE5B000191AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CDF1E45EE5B000191AD /* Main.storyboard */; };
+		1A216CE31E45EE5B000191AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CE21E45EE5B000191AD /* Assets.xcassets */; };
+		1A216CE61E45EE5B000191AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CE41E45EE5B000191AD /* LaunchScreen.storyboard */; };
+		1A216CF11E45EEA9000191AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216CEF1E45EEA9000191AD /* HomeViewController.swift */; };
+		1A216CF21E45EEA9000191AD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CF01E45EEA9000191AD /* HomeViewController.xib */; };
+		1A216CF51E45F6C0000191AD /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CF41E45F6C0000191AD /* LottieLogo1.json */; };
+		1A216D151E45FE4E000191AD /* A.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CF71E45FE4E000191AD /* A.json */; };
+		1A216D161E45FE4E000191AD /* Apostrophe.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CF81E45FE4E000191AD /* Apostrophe.json */; };
+		1A216D171E45FE4E000191AD /* B.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CF91E45FE4E000191AD /* B.json */; };
+		1A216D181E45FE4E000191AD /* BlinkingCursor.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CFA1E45FE4E000191AD /* BlinkingCursor.json */; };
+		1A216D191E45FE4E000191AD /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CFB1E45FE4E000191AD /* C.json */; };
+		1A216D1A1E45FE4E000191AD /* Colon.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CFC1E45FE4E000191AD /* Colon.json */; };
+		1A216D1B1E45FE4E000191AD /* Comma.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CFD1E45FE4E000191AD /* Comma.json */; };
+		1A216D1C1E45FE4E000191AD /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CFE1E45FE4E000191AD /* D.json */; };
+		1A216D1D1E45FE4E000191AD /* E.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216CFF1E45FE4E000191AD /* E.json */; };
+		1A216D1E1E45FE4E000191AD /* F.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D001E45FE4E000191AD /* F.json */; };
+		1A216D1F1E45FE4E000191AD /* G.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D011E45FE4E000191AD /* G.json */; };
+		1A216D201E45FE4E000191AD /* H.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D021E45FE4E000191AD /* H.json */; };
+		1A216D211E45FE4E000191AD /* I.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D031E45FE4E000191AD /* I.json */; };
+		1A216D221E45FE4E000191AD /* J.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D041E45FE4E000191AD /* J.json */; };
+		1A216D231E45FE4E000191AD /* K.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D051E45FE4E000191AD /* K.json */; };
+		1A216D241E45FE4E000191AD /* L.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D061E45FE4E000191AD /* L.json */; };
+		1A216D251E45FE4E000191AD /* M.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D071E45FE4E000191AD /* M.json */; };
+		1A216D261E45FE4E000191AD /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D081E45FE4E000191AD /* N.json */; };
+		1A216D271E45FE4E000191AD /* O.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D091E45FE4E000191AD /* O.json */; };
+		1A216D281E45FE4E000191AD /* P.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D0A1E45FE4E000191AD /* P.json */; };
+		1A216D291E45FE4E000191AD /* Q.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D0B1E45FE4E000191AD /* Q.json */; };
+		1A216D2A1E45FE4E000191AD /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D0C1E45FE4E000191AD /* R.json */; };
+		1A216D2B1E45FE4E000191AD /* S.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D0D1E45FE4E000191AD /* S.json */; };
+		1A216D2C1E45FE4E000191AD /* T.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D0E1E45FE4E000191AD /* T.json */; };
+		1A216D2D1E45FE4E000191AD /* U.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D0F1E45FE4E000191AD /* U.json */; };
+		1A216D2E1E45FE4E000191AD /* V.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D101E45FE4E000191AD /* V.json */; };
+		1A216D2F1E45FE4E000191AD /* W.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D111E45FE4E000191AD /* W.json */; };
+		1A216D301E45FE4E000191AD /* X.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D121E45FE4E000191AD /* X.json */; };
+		1A216D311E45FE4E000191AD /* Y.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D131E45FE4E000191AD /* Y.json */; };
+		1A216D321E45FE4E000191AD /* Z.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A216D141E45FE4E000191AD /* Z.json */; };
+		37AF9567F92EE188B2F4F7A3 /* Pods_Lottie_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE30D1864CB09923E697308 /* Pods_Lottie_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A216CD81E45EE5B000191AD /* Lottie-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A216CDB1E45EE5B000191AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A216CE01E45EE5B000191AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A216CE21E45EE5B000191AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A216CE51E45EE5B000191AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A216CE71E45EE5B000191AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A216CEF1E45EEA9000191AD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1A216CF01E45EEA9000191AD /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1A216CF41E45F6C0000191AD /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		1A216CF71E45FE4E000191AD /* A.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = A.json; sourceTree = "<group>"; };
+		1A216CF81E45FE4E000191AD /* Apostrophe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Apostrophe.json; sourceTree = "<group>"; };
+		1A216CF91E45FE4E000191AD /* B.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = B.json; sourceTree = "<group>"; };
+		1A216CFA1E45FE4E000191AD /* BlinkingCursor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BlinkingCursor.json; sourceTree = "<group>"; };
+		1A216CFB1E45FE4E000191AD /* C.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		1A216CFC1E45FE4E000191AD /* Colon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colon.json; sourceTree = "<group>"; };
+		1A216CFD1E45FE4E000191AD /* Comma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comma.json; sourceTree = "<group>"; };
+		1A216CFE1E45FE4E000191AD /* D.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		1A216CFF1E45FE4E000191AD /* E.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = E.json; sourceTree = "<group>"; };
+		1A216D001E45FE4E000191AD /* F.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = F.json; sourceTree = "<group>"; };
+		1A216D011E45FE4E000191AD /* G.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = G.json; sourceTree = "<group>"; };
+		1A216D021E45FE4E000191AD /* H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = H.json; sourceTree = "<group>"; };
+		1A216D031E45FE4E000191AD /* I.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = I.json; sourceTree = "<group>"; };
+		1A216D041E45FE4E000191AD /* J.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = J.json; sourceTree = "<group>"; };
+		1A216D051E45FE4E000191AD /* K.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = K.json; sourceTree = "<group>"; };
+		1A216D061E45FE4E000191AD /* L.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = L.json; sourceTree = "<group>"; };
+		1A216D071E45FE4E000191AD /* M.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = M.json; sourceTree = "<group>"; };
+		1A216D081E45FE4E000191AD /* N.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		1A216D091E45FE4E000191AD /* O.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = O.json; sourceTree = "<group>"; };
+		1A216D0A1E45FE4E000191AD /* P.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = P.json; sourceTree = "<group>"; };
+		1A216D0B1E45FE4E000191AD /* Q.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Q.json; sourceTree = "<group>"; };
+		1A216D0C1E45FE4E000191AD /* R.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		1A216D0D1E45FE4E000191AD /* S.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = S.json; sourceTree = "<group>"; };
+		1A216D0E1E45FE4E000191AD /* T.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = T.json; sourceTree = "<group>"; };
+		1A216D0F1E45FE4E000191AD /* U.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = U.json; sourceTree = "<group>"; };
+		1A216D101E45FE4E000191AD /* V.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = V.json; sourceTree = "<group>"; };
+		1A216D111E45FE4E000191AD /* W.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = W.json; sourceTree = "<group>"; };
+		1A216D121E45FE4E000191AD /* X.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = X.json; sourceTree = "<group>"; };
+		1A216D131E45FE4E000191AD /* Y.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Y.json; sourceTree = "<group>"; };
+		1A216D141E45FE4E000191AD /* Z.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Z.json; sourceTree = "<group>"; };
+		7FE30D1864CB09923E697308 /* Pods_Lottie_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBA8290851126DC64316030 /* Pods-Lottie-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EF4C5C99BD44E9457D4218EF /* Pods-Lottie-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A216CD51E45EE5B000191AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AF9567F92EE188B2F4F7A3 /* Pods_Lottie_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A216CCF1E45EE5B000191AD = {
+			isa = PBXGroup;
+			children = (
+				1A216CDA1E45EE5B000191AD /* Lottie-Example */,
+				1A216CD91E45EE5B000191AD /* Products */,
+				4D1E6271D5B7AEB87F57D74E /* Pods */,
+				9C1555109F947A66D53ACD13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A216CD91E45EE5B000191AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A216CD81E45EE5B000191AD /* Lottie-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A216CDA1E45EE5B000191AD /* Lottie-Example */ = {
+			isa = PBXGroup;
+			children = (
+				1A216CDB1E45EE5B000191AD /* AppDelegate.swift */,
+				1A216CEE1E45EEA2000191AD /* ViewController */,
+				1A216CF31E45EEC3000191AD /* Resources */,
+				1A216CED1E45EE6C000191AD /* Support */,
+			);
+			path = "Lottie-Example";
+			sourceTree = "<group>";
+		};
+		1A216CED1E45EE6C000191AD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1A216CDF1E45EE5B000191AD /* Main.storyboard */,
+				1A216CE21E45EE5B000191AD /* Assets.xcassets */,
+				1A216CE41E45EE5B000191AD /* LaunchScreen.storyboard */,
+				1A216CE71E45EE5B000191AD /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		1A216CEE1E45EEA2000191AD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A216CEF1E45EEA9000191AD /* HomeViewController.swift */,
+				1A216CF01E45EEA9000191AD /* HomeViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1A216CF31E45EEC3000191AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A216CF61E45FE4E000191AD /* TypeFace */,
+				1A216CF41E45F6C0000191AD /* LottieLogo1.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A216CF61E45FE4E000191AD /* TypeFace */ = {
+			isa = PBXGroup;
+			children = (
+				1A216CF71E45FE4E000191AD /* A.json */,
+				1A216CF81E45FE4E000191AD /* Apostrophe.json */,
+				1A216CF91E45FE4E000191AD /* B.json */,
+				1A216CFA1E45FE4E000191AD /* BlinkingCursor.json */,
+				1A216CFB1E45FE4E000191AD /* C.json */,
+				1A216CFC1E45FE4E000191AD /* Colon.json */,
+				1A216CFD1E45FE4E000191AD /* Comma.json */,
+				1A216CFE1E45FE4E000191AD /* D.json */,
+				1A216CFF1E45FE4E000191AD /* E.json */,
+				1A216D001E45FE4E000191AD /* F.json */,
+				1A216D011E45FE4E000191AD /* G.json */,
+				1A216D021E45FE4E000191AD /* H.json */,
+				1A216D031E45FE4E000191AD /* I.json */,
+				1A216D041E45FE4E000191AD /* J.json */,
+				1A216D051E45FE4E000191AD /* K.json */,
+				1A216D061E45FE4E000191AD /* L.json */,
+				1A216D071E45FE4E000191AD /* M.json */,
+				1A216D081E45FE4E000191AD /* N.json */,
+				1A216D091E45FE4E000191AD /* O.json */,
+				1A216D0A1E45FE4E000191AD /* P.json */,
+				1A216D0B1E45FE4E000191AD /* Q.json */,
+				1A216D0C1E45FE4E000191AD /* R.json */,
+				1A216D0D1E45FE4E000191AD /* S.json */,
+				1A216D0E1E45FE4E000191AD /* T.json */,
+				1A216D0F1E45FE4E000191AD /* U.json */,
+				1A216D101E45FE4E000191AD /* V.json */,
+				1A216D111E45FE4E000191AD /* W.json */,
+				1A216D121E45FE4E000191AD /* X.json */,
+				1A216D131E45FE4E000191AD /* Y.json */,
+				1A216D141E45FE4E000191AD /* Z.json */,
+			);
+			path = TypeFace;
+			sourceTree = "<group>";
+		};
+		4D1E6271D5B7AEB87F57D74E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA8290851126DC64316030 /* Pods-Lottie-Example.debug.xcconfig */,
+				EF4C5C99BD44E9457D4218EF /* Pods-Lottie-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C1555109F947A66D53ACD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FE30D1864CB09923E697308 /* Pods_Lottie_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A216CD71E45EE5B000191AD /* Lottie-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A216CEA1E45EE5B000191AD /* Build configuration list for PBXNativeTarget "Lottie-Example" */;
+			buildPhases = (
+				0DA826BB4C6E44E154A9E262 /* [CP] Check Pods Manifest.lock */,
+				1A216CD41E45EE5B000191AD /* Sources */,
+				1A216CD51E45EE5B000191AD /* Frameworks */,
+				1A216CD61E45EE5B000191AD /* Resources */,
+				9610740B7351F59D0CD60470 /* [CP] Embed Pods Frameworks */,
+				126B391FAE19A26EC0248664 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lottie-Example";
+			productName = "Lottie-Example";
+			productReference = 1A216CD81E45EE5B000191AD /* Lottie-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A216CD01E45EE5B000191AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Don Chen";
+				TargetAttributes = {
+					1A216CD71E45EE5B000191AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DT8726CBX4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A216CD31E45EE5B000191AD /* Build configuration list for PBXProject "Lottie-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A216CCF1E45EE5B000191AD;
+			productRefGroup = 1A216CD91E45EE5B000191AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A216CD71E45EE5B000191AD /* Lottie-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A216CD61E45EE5B000191AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A216D1C1E45FE4E000191AD /* D.json in Resources */,
+				1A216D221E45FE4E000191AD /* J.json in Resources */,
+				1A216D171E45FE4E000191AD /* B.json in Resources */,
+				1A216CE61E45EE5B000191AD /* LaunchScreen.storyboard in Resources */,
+				1A216CE31E45EE5B000191AD /* Assets.xcassets in Resources */,
+				1A216D2F1E45FE4E000191AD /* W.json in Resources */,
+				1A216D231E45FE4E000191AD /* K.json in Resources */,
+				1A216D1A1E45FE4E000191AD /* Colon.json in Resources */,
+				1A216D261E45FE4E000191AD /* N.json in Resources */,
+				1A216D1F1E45FE4E000191AD /* G.json in Resources */,
+				1A216CE11E45EE5B000191AD /* Main.storyboard in Resources */,
+				1A216D251E45FE4E000191AD /* M.json in Resources */,
+				1A216D2C1E45FE4E000191AD /* T.json in Resources */,
+				1A216CF51E45F6C0000191AD /* LottieLogo1.json in Resources */,
+				1A216D191E45FE4E000191AD /* C.json in Resources */,
+				1A216D2B1E45FE4E000191AD /* S.json in Resources */,
+				1A216D291E45FE4E000191AD /* Q.json in Resources */,
+				1A216D2E1E45FE4E000191AD /* V.json in Resources */,
+				1A216D271E45FE4E000191AD /* O.json in Resources */,
+				1A216D1B1E45FE4E000191AD /* Comma.json in Resources */,
+				1A216D321E45FE4E000191AD /* Z.json in Resources */,
+				1A216D281E45FE4E000191AD /* P.json in Resources */,
+				1A216D201E45FE4E000191AD /* H.json in Resources */,
+				1A216D241E45FE4E000191AD /* L.json in Resources */,
+				1A216D181E45FE4E000191AD /* BlinkingCursor.json in Resources */,
+				1A216D1E1E45FE4E000191AD /* F.json in Resources */,
+				1A216D211E45FE4E000191AD /* I.json in Resources */,
+				1A216D2A1E45FE4E000191AD /* R.json in Resources */,
+				1A216D311E45FE4E000191AD /* Y.json in Resources */,
+				1A216D2D1E45FE4E000191AD /* U.json in Resources */,
+				1A216CF21E45EEA9000191AD /* HomeViewController.xib in Resources */,
+				1A216D161E45FE4E000191AD /* Apostrophe.json in Resources */,
+				1A216D151E45FE4E000191AD /* A.json in Resources */,
+				1A216D301E45FE4E000191AD /* X.json in Resources */,
+				1A216D1D1E45FE4E000191AD /* E.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DA826BB4C6E44E154A9E262 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		126B391FAE19A26EC0248664 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9610740B7351F59D0CD60470 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A216CD41E45EE5B000191AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A216CDC1E45EE5B000191AD /* AppDelegate.swift in Sources */,
+				1A216CF11E45EEA9000191AD /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A216CDF1E45EE5B000191AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A216CE01E45EE5B000191AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A216CE41E45EE5B000191AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A216CE51E45EE5B000191AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A216CE81E45EE5B000191AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A216CE91E45EE5B000191AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A216CEB1E45EE5B000191AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEBA8290851126DC64316030 /* Pods-Lottie-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DT8726CBX4;
+				INFOPLIST_FILE = "Lottie-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code4idea.com.Lottie-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A216CEC1E45EE5B000191AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4C5C99BD44E9457D4218EF /* Pods-Lottie-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DT8726CBX4;
+				INFOPLIST_FILE = "Lottie-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "code4idea.com.Lottie-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A216CD31E45EE5B000191AD /* Build configuration list for PBXProject "Lottie-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A216CE81E45EE5B000191AD /* Debug */,
+				1A216CE91E45EE5B000191AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A216CEA1E45EE5B000191AD /* Build configuration list for PBXNativeTarget "Lottie-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A216CEB1E45EE5B000191AD /* Debug */,
+				1A216CEC1E45EE5B000191AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A216CD01E45EE5B000191AD /* Project object */;
+}

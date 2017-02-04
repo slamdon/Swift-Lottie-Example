@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+use_frameworks!
+
+target :'Lottie-Example' do
+	pod 'lottie-ios', '~> 1.0'
+end
