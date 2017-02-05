@@ -16,3 +16,29 @@ Here is some sample from the official site
 ![Example3](_Gifs/Examples3.gif)
 
 ![Abcs](_Gifs/Examples4.gif)
+
+## Install Lottie
+
+###Cocoapods
+Add the pod to your podfile
+```
+pod 'lottie-ios'
+```
+run
+```
+pod install
+```
+
+###Carthage
+Install Carthage (https://github.com/Carthage/Carthage)
+Add Lottie to your Cartfile
+```
+github "airbnb/lottie-ios" "master"
+```
+run 
+```
+carthage update
+```
+
+### Using Lottie
+for more information please read the official [readme](https://github.com/airbnb/lottie-ios/blob/master/README.md)
