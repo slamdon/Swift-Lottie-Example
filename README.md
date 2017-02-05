@@ -40,5 +40,5 @@ run
 carthage update
 ```
 
-### Using Lottie
+## Using Lottie
 for more information please read the official [readme](https://github.com/airbnb/lottie-ios/blob/master/README.md)
