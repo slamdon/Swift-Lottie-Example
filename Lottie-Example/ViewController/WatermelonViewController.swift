@@ -33,7 +33,7 @@ class WatermelonViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        watermelon.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height * 0.3)
+        watermelon.frame = CGRect(x: 0, y: 60, width: view.bounds.width, height: view.bounds.height * 0.3 - 60)
         view.addSubview(watermelon)
     }
     
@@ -51,7 +51,7 @@ class WatermelonViewController: UIViewController {
         items.insert(String(number), at: 0)
         
         watermelon.animationProgress = 0
-        watermelon.contentMode = .scaleAspectFill
+        watermelon.contentMode = .scaleAspectFit
         watermelon.play()
         
         refreshControl.endRefreshing()

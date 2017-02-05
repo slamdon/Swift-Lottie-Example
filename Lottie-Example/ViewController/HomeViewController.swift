@@ -67,6 +67,7 @@ extension HomeViewController: UITableViewDataSource {
         if cell == nil {
             cell = UITableViewCell(style: .value1, reuseIdentifier: "aCell")
         }
+        cell?.selectionStyle = .none
         cell?.textLabel?.text = items[indexPath.row]
         return cell!
     }
