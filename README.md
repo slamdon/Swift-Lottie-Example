@@ -7,7 +7,7 @@ here is an official [Objective-C example](https://github.com/airbnb/lottie-ios) 
 
 ## Example
 
-Here is just a small sampling of the power of Lottie
+Here is some sample from the official site
 
 ![Example1](_Gifs/Examples1.gif)
 ![Example2](_Gifs/Examples2.gif)
