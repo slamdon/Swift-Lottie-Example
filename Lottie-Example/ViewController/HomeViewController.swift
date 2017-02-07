@@ -14,7 +14,7 @@ class HomeViewController: UIViewController {
     fileprivate let items = ["Animation Exploreer", "Animated Keyboard", "Animated Transition Demo", "Watermelon Animation"]
     fileprivate var lottieLogo: LAAnimationView!
     
-    override func viewDidLoad() {
+    override func viewDidLoad( ) {
         super.viewDidLoad()
         
         lottieLogo = LAAnimationView.animationNamed("LottieLogo1")
@@ -23,6 +23,7 @@ class HomeViewController: UIViewController {
         // logo被點後可以重播動畫
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(playLottieAnimation))
         lottieLogo.addGestureRecognizer(tapGesture)
+        
         
     }
     

@@ -41,4 +41,7 @@ carthage update
 ```
 
 ## Using Lottie
-for more information please read the official [readme](https://github.com/airbnb/lottie-ios/blob/master/README.md)
+for more information please read the official [Readme](https://github.com/airbnb/lottie-ios/blob/master/README.md)
+
+## 中文部分
+ - 請查看[Airbnb開源動畫庫Lottie](http://ios.devdon.com/?p=241)
