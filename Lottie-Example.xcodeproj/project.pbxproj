@@ -69,6 +69,8 @@
 		1A216D681E46213F000191AD /* AnimatedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D671E46213F000191AD /* AnimatedTextField.swift */; };
 		1A216D6A1E4621C6000191AD /* LACharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D691E4621C6000191AD /* LACharacterCell.swift */; };
 		1A216D6C1E473D07000191AD /* JSONExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A216D6B1E473D07000191AD /* JSONExplorerViewController.swift */; };
+		1AF109611E6EB51B00EDC6DB /* SandBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF1095F1E6EB51B00EDC6DB /* SandBoxViewController.swift */; };
+		1AF109621E6EB51B00EDC6DB /* SandBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AF109601E6EB51B00EDC6DB /* SandBoxViewController.xib */; };
 		37AF9567F92EE188B2F4F7A3 /* Pods_Lottie_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE30D1864CB09923E697308 /* Pods_Lottie_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -137,6 +139,8 @@
 		1A216D671E46213F000191AD /* AnimatedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTextField.swift; sourceTree = "<group>"; };
 		1A216D691E4621C6000191AD /* LACharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LACharacterCell.swift; sourceTree = "<group>"; };
 		1A216D6B1E473D07000191AD /* JSONExplorerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONExplorerViewController.swift; sourceTree = "<group>"; };
+		1AF1095F1E6EB51B00EDC6DB /* SandBoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandBoxViewController.swift; sourceTree = "<group>"; };
+		1AF109601E6EB51B00EDC6DB /* SandBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SandBoxViewController.xib; sourceTree = "<group>"; };
 		7FE30D1864CB09923E697308 /* Pods_Lottie_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBA8290851126DC64316030 /* Pods-Lottie-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF4C5C99BD44E9457D4218EF /* Pods-Lottie-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lottie-Example/Pods-Lottie-Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 				1A216D381E460631000191AD /* Transition Demo */,
 				1A216D391E460642000191AD /* Typing Animation Demo */,
 				1A216D5E1E4614EF000191AD /* Watermelon */,
+				1AF1095E1E6EB50200EDC6DB /* SandBox */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -304,6 +309,15 @@
 				1A216D641E461681000191AD /* WatermelonViewController.xib */,
 			);
 			name = Watermelon;
+			sourceTree = "<group>";
+		};
+		1AF1095E1E6EB50200EDC6DB /* SandBox */ = {
+			isa = PBXGroup;
+			children = (
+				1AF1095F1E6EB51B00EDC6DB /* SandBoxViewController.swift */,
+				1AF109601E6EB51B00EDC6DB /* SandBoxViewController.xib */,
+			);
+			name = SandBox;
 			sourceTree = "<group>";
 		};
 		4D1E6271D5B7AEB87F57D74E /* Pods */ = {
@@ -414,6 +428,7 @@
 				1A216D2E1E45FE4E000191AD /* V.json in Resources */,
 				1A216D411E460686000191AD /* AnimationTypingViewController.xib in Resources */,
 				1A216D271E45FE4E000191AD /* O.json in Resources */,
+				1AF109621E6EB51B00EDC6DB /* SandBoxViewController.xib in Resources */,
 				1A216D451E460966000191AD /* AnimationPresentedViewController.xib in Resources */,
 				1A216D1B1E45FE4E000191AD /* Comma.json in Resources */,
 				1A216D321E45FE4E000191AD /* Z.json in Resources */,
@@ -503,6 +518,7 @@
 				1A216D6A1E4621C6000191AD /* LACharacterCell.swift in Sources */,
 				1A216D681E46213F000191AD /* AnimatedTextField.swift in Sources */,
 				1A216CDC1E45EE5B000191AD /* AppDelegate.swift in Sources */,
+				1AF109611E6EB51B00EDC6DB /* SandBoxViewController.swift in Sources */,
 				1A216D441E460966000191AD /* AnimationPresentedViewController.swift in Sources */,
 				1A216D651E461681000191AD /* WatermelonViewController.swift in Sources */,
 				1A216CF11E45EEA9000191AD /* HomeViewController.swift in Sources */,

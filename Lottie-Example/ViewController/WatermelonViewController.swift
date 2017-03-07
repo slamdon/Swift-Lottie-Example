@@ -29,12 +29,25 @@ class WatermelonViewController: UIViewController {
         
         aTableView.refreshControl = refreshControl
         
-        watermelon = LAAnimationView.animationNamed("Watermelon")
     }
     
     override func viewDidLayoutSubviews() {
+        // setup animation view
+        watermelon = LAAnimationView.animationNamed("Watermelon")
+        watermelon.contentMode = .scaleAspectFit
+        
         watermelon.frame = CGRect(x: 0, y: 60, width: view.bounds.width, height: view.bounds.height * 0.3 - 60)
         view.addSubview(watermelon)
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        playAnimation()
+    }
+    
+    
+    @IBAction func didTapClose(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     func setupItems() {
@@ -50,16 +63,15 @@ class WatermelonViewController: UIViewController {
         let number = items.count
         items.insert(String(number), at: 0)
         
-        watermelon.animationProgress = 0
-        watermelon.contentMode = .scaleAspectFit
-        watermelon.play()
+        playAnimation()
         
         refreshControl.endRefreshing()
         aTableView.reloadData()
     }
     
-    @IBAction func didTapClose(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    func playAnimation() {
+        watermelon.animationProgress = 0
+        watermelon.play()
     }
 
 

@@ -11,7 +11,7 @@ import Lottie
 
 class HomeViewController: UIViewController {
     
-    fileprivate let items = ["Animation Exploreer", "Animated Keyboard", "Animated Transition Demo", "Watermelon Animation"]
+    fileprivate let items = ["Animation Exploreer", "Animated Keyboard", "Animated Transition Demo", "Watermelon Animation", "Read From Sandbox"]
     fileprivate var lottieLogo: LAAnimationView!
     
     override func viewDidLoad( ) {
@@ -24,11 +24,8 @@ class HomeViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(playLottieAnimation))
         lottieLogo.addGestureRecognizer(tapGesture)
         
-        
-    }
-    
 
-    
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         lottieLogo.play()
@@ -49,6 +46,8 @@ class HomeViewController: UIViewController {
         lottieLogo.play()
         
     }
+    
+
 
 
 }
@@ -86,15 +85,23 @@ extension HomeViewController: UITableViewDelegate {
         case 0:
             let VC = AnimationExplorerViewController(nibName: "AnimationExplorerViewController", bundle: nil)
             present(VC, animated: true, completion: nil)
+            
         case 1:
             let VC = AnimationTypingViewController(nibName: "AnimationTypingViewController", bundle: nil)
             present(VC, animated: true, completion: nil)
+            
         case 2:
             let VC = AnimationTransitionViewController(nibName: "AnimationTransitionViewController", bundle: nil)
             present(VC, animated: true, completion: nil)
+            
         case 3:
             let VC = WatermelonViewController(nibName: "WatermelonViewController", bundle: nil)
             present(VC, animated: true, completion: nil)
+            
+        case 4:
+            let VC = SandBoxViewController(nibName: "SandBoxViewController", bundle: nil)
+            present(VC, animated: true, completion: nil)
+            
         default:
             print("do nothing")
         }
